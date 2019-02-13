@@ -10,6 +10,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using OSGeo.GDAL;
+using OSGeo.OGR;
+using OSGeo.OSR;
 
 namespace DataManager
 {
@@ -17,6 +20,11 @@ namespace DataManager
     {
         static void Main(string[] args)
         {
+            Gdal.AllRegister();
+            Ogr.RegisterAll();
+            GdalConfiguration.ConfigureGdal();
+            GdalConfiguration.ConfigureOgr();
+
         }
     }
 }

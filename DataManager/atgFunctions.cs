@@ -6,8 +6,15 @@ using System.Threading.Tasks;
 
 namespace DataManager
 {
-    class atgFunctions
+    public class atgFunctions
     {
+        /// <summary>
+        ///  Converts an integer to string with fixed digit count by adding zeros to left.
+        /// </summary>
+        /// <param name="_number">Number which should be converted to string with fixed digit count.</param>
+        /// <param name="_digitsCount">Digit Counts for Corresponding integer.</param>
+        /// <returns>String Corresponding to _number integer with _digitCount digits.</returns>
+        /// <exception cref="System.ArgumentException">Thrown When <c>_number</c> digit counts is lower than <c>_digitsCount</c></exception>
         public string xDigitNum(int _number, int _digitsCount)
         {
             if (_number.ToString().Length < _digitsCount)
