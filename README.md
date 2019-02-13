@@ -2,4 +2,5 @@
 Iran's Water Research Institute Flood Warning System.
 
 ## Dependencies
-* PARSGREEN Nuget Package. (Currently Running On Version 8.13)
+* PARSGREEN by Mostafa Rad. (Version 9.1.2)
+* GDAL by Tamas Szekeres. (Version 2.3.3)
