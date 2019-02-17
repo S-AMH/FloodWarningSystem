@@ -20,11 +20,10 @@ namespace DataManager
     {
         static void Main(string[] args)
         {
-
-            Gdal.AllRegister();
-            Ogr.RegisterAll();
             GdalConfiguration.ConfigureGdal();
             GdalConfiguration.ConfigureOgr();
+            Gdal.AllRegister();
+            Ogr.RegisterAll();
             Gdal.SetErrorHandler("CPLQuietErrorHandler"); // Set Quiet Error Handler to prevent Gdal Warnings from displaying in command line. 
         }
     }
