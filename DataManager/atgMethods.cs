@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DataManager
 {
-    public class atgFunctions
+    public class atgMethods
     {
         /// <summary>
         ///  Converts an integer to string with fixed digit count by adding zeros to left.
