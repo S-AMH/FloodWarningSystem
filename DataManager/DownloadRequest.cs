@@ -13,6 +13,7 @@ namespace DataManager
     {
         private Uri uri = new Uri("");
         private string path = "";
+        //<username, password> -> username:password
         private Tuple<string, string> authentication = new Tuple<string, string>("","");
         private int timeLimit = -1;
 
