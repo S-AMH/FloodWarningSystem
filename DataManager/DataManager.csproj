@@ -49,9 +49,6 @@
     <Reference Include="PARSGREEN, Version=2.8.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\PARSGREEN.9.1.5\lib\net40\PARSGREEN.dll</HintPath>
     </Reference>
-    <Reference Include="SevenZip, Version=18.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\LZMA-SDK.18.1.0\lib\net20\SevenZip.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Net" />
@@ -67,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="atgMethods.cs" />
+    <Compile Include="Compressor.cs" />
     <Compile Include="DownloadRequest.cs" />
     <Compile Include="GdalConfiguration.cs" />
     <Compile Include="Program.cs" />
@@ -77,7 +75,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Example.txt" />
     <Content Include="GdalConfiguration.vb" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
