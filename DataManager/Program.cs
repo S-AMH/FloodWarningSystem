@@ -24,7 +24,7 @@ namespace DataManager
             GdalConfiguration.ConfigureOgr();
             Gdal.AllRegister();
             Ogr.RegisterAll();
-            Gdal.SetErrorHandler("CPLQuietErrorHandler"); // Set Quiet Error Handler to prevent Gdal Warnings from displaying in command line. 
+            Gdal.SetErrorHandler("CPLQuietErrorHandler"); // Set Quiet Error Handler to prevent Gdal Warnings from displaying in command line.
         }
     }
 }
