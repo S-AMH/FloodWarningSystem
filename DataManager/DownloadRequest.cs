@@ -46,11 +46,11 @@ namespace DataManager
         }
 
         /// <summary>
-        /// 
+        /// Creates DownloadRequest object with specific download address and path, authentication is used and timeLimit is set to its maximum (approximately 25 days)
         /// </summary>
-        /// <param name="uri"></param>
-        /// <param name="path"></param>
-        /// <param name="authentication"></param>
+        /// <param name="uri">file address in network/internter(url)</param>
+        /// <param name="path">local path to save downloaded file from network/internet</param>
+        /// <param name="authentication">(username:password) style authentication</param>
         public DownloadRequest(Uri uri, string path, Tuple<string, string> authentication)
         {
             this.uri = uri;
@@ -59,6 +59,13 @@ namespace DataManager
             this.timeLimit = int.MaxValue;
         }
 
+        /// <summary>
+        /// Creates DownloadRequest object with specific download address and path, authentication is used and timeLimit is set specified value
+        /// </summary>
+        /// <param name="uri">file address in network/internter</param>
+        /// <param name="path">local path to save downloaded file from network/internet</param>
+        /// <param name="authentication">(username:password) style authentication<</param>
+        /// <param name="timeLimit">unsigned integer value, represented allowed time for file to download in Millisecond</param>
         public DownloadRequest(Uri uri, string path, Tuple<string, string> authentication, int timeLimit)
         {
             this.uri = uri;
