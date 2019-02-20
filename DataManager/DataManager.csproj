@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="atgMethods.cs" />
+    <Compile Include="DownloadRequest.cs" />
     <Compile Include="GdalConfiguration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
