@@ -42,7 +42,7 @@ namespace DataManager
             if (timeLimit > 0)
                 this.timeLimit = timeLimit;
             else
-                throw new ArgumentException("timeLimit should be only unsigned integers and positive values.", "timeLimit");
+                throw new ArgumentException("timeLimit should be only unsigned integer.", "timeLimit");
         }
 
         /// <summary>
@@ -74,7 +74,7 @@ namespace DataManager
             if (timeLimit > 0)
                 this.timeLimit = timeLimit;
             else
-                throw new ArgumentException("timeLimit should be only unsigned integers and positive values.", "timeLimit");
+                throw new ArgumentException("timeLimit should be only unsigned integer.", "timeLimit");
         }
 
         public Uri Uri { get => uri; set => uri = value; }
