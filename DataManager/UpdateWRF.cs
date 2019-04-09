@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ATG;
+using SimpleLogger;
 
 namespace DataManager
 {
@@ -14,8 +16,15 @@ namespace DataManager
     {
         public static bool update()
         {
-
-            return true;
+            throw new NotImplementedException("This Feature is not Implemented yet.");
+        }
+        private static bool upload()
+        {
+            throw new NotImplementedException("This Feature is not Implemented yet.");
+        }
+        private static bool publish()
+        {
+            throw new NotImplementedException("This Feature is not Implemented yet.");
         }
     }
 }

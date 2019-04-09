@@ -32,9 +32,6 @@ namespace DataManager
             // Start Logger. DataManager_yyyy-MM-dd.log
             SimpleLog.SetLogFile(logDir: Path.Combine(Resource.DB, "Logs", "DataManager"),
                 prefix: "DataManager_", dateFormat: "yyyy-MM-dd", writeText: false);
-
-
         }
-
     }
 }
