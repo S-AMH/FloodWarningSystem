@@ -120,4 +120,19 @@
   <data name="DB" xml:space="preserve">
     <value>C:\FWS\DB</value>
   </data>
+  <data name="GFSPublishApcp" xml:space="preserve">
+    <value>C:\FWS\DB\WebGIS\PublishGFS-APCP.py</value>
+  </data>
+  <data name="GFSPublishRain" xml:space="preserve">
+    <value>C:\FWS\DB\WebGIS\PublishGFS-RAIN.py</value>
+  </data>
+  <data name="GFSRuns" xml:space="preserve">
+    <value>C:\FWS\DB\tmpFiles\~DBUpdate</value>
+  </data>
+  <data name="GFSUploadApcp" xml:space="preserve">
+    <value>C:\FWS\DB\WebGIS\UploadGFS-APCP.py</value>
+  </data>
+  <data name="GFSUploadRain" xml:space="preserve">
+    <value>C:\FWS\DB\WebGIS\UploadGFS-RAIN.py</value>
+  </data>
 </root>

@@ -68,5 +68,50 @@ namespace DataManager {
                 return ResourceManager.GetString("DB", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to C:\FWS\DB\WebGIS\PublishGFS-APCP.py.
+        /// </summary>
+        internal static string GFSPublishApcp {
+            get {
+                return ResourceManager.GetString("GFSPublishApcp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to C:\FWS\DB\WebGIS\PublishGFS-RAIN.py.
+        /// </summary>
+        internal static string GFSPublishRain {
+            get {
+                return ResourceManager.GetString("GFSPublishRain", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to C:\FWS\DB\tmpFiles\~DBUpdate.
+        /// </summary>
+        internal static string GFSRuns {
+            get {
+                return ResourceManager.GetString("GFSRuns", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to C:\FWS\DB\WebGIS\UploadGFS-APCP.py.
+        /// </summary>
+        internal static string GFSUploadApcp {
+            get {
+                return ResourceManager.GetString("GFSUploadApcp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to C:\FWS\DB\WebGIS\UploadGFS-RAIN.py.
+        /// </summary>
+        internal static string GFSUploadRain {
+            get {
+                return ResourceManager.GetString("GFSUploadRain", resourceCulture);
+            }
+        }
     }
 }
