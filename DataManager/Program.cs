@@ -13,6 +13,8 @@ using System.Threading.Tasks;
 using OSGeo.GDAL;
 using OSGeo.OGR;
 using OSGeo.OSR;
+using SimpleLogger;
+using System.IO;
 
 namespace DataManager
 {
@@ -26,6 +28,13 @@ namespace DataManager
             Ogr.RegisterAll();
             Gdal.SetErrorHandler("CPLQuietErrorHandler");
             Gdal.PushErrorHandler("CPLQuietErrorHandler");
+            
+            // Start Logger. DataManager_yyyy-MM-dd.log
+            SimpleLog.SetLogFile(logDir: Path.Combine(Resource.DB, "Logs", "DataManager"),
+                prefix: "DataManager_", dateFormat: "yyyy-MM-dd", writeText: false);
+
+
         }
+
     }
 }

@@ -598,7 +598,7 @@ namespace SimpleLogger
         /// </remarks>
         /// <param name="message">Test message to write to the log file</param>
         /// <returns>Null on success, otherwise an exception with what went wrong.</returns>
-        public static Exception Check(string message = "Test entry to see if logging works.")
+        public static Exception Check(string message = "DataManager Started.")
         {
             // Try to write directly to the file to see if it's working.
             return Log(message, Severity.Info, false);
